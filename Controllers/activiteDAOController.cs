@@ -46,7 +46,7 @@ namespace WebServiceDAOREST.Controllers
 
         }
 
-        // DELETE: api/activiteDAO/5
+        //DELETE: api/activiteDAO/5
         public void Delete(int id)
         {
             DAOMySQL.delUser(id);
